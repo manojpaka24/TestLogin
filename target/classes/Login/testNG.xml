@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="VCS BookShelf Login" verbose="10" parallel="tests" thread-count="3">
+  <test name="LoginBookShelf Firefox">
+  	<parameter name="Browser" value="firefox"></parameter>
+    <classes>
+      <class name="Login.loginTest"></class>
+    </classes>
+  </test>
+    <test name="LoginBookShelf Chrome">
+  	<parameter name="Browser" value="chrome"></parameter>
+    <classes>
+      <class name="Login.loginTest"></class>
+    </classes>
+  </test>
+</suite>

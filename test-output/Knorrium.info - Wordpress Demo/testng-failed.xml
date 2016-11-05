@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" guice-stage="DEVELOPMENT" verbose="10" name="Failed suite [Knorrium.info - Wordpress Demo]" parallel="tests">
+  <parameter name="Browser" value="chrome"/>
+  <test name="LoginBookShelf Chrome(failed)" parallel="tests">
+    <parameter name="Browser" value="chrome"/>
+    <classes>
+      <class name="Login.loginTest">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="testValidLogin"/>
+          <include name="testInvalidLogin"/>
+        </methods>
+      </class> <!-- Login.loginTest -->
+    </classes>
+  </test> <!-- LoginBookShelf Chrome(failed) -->
+  <test name="LoginBookShelf Firefox(failed)" parallel="tests">
+    <parameter name="Browser" value="firefox"/>
+    <classes>
+      <class name="Login.loginTest">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="testValidLogin"/>
+          <include name="testInvalidLogin" invocation-numbers="0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19"/>
+        </methods>
+      </class> <!-- Login.loginTest -->
+    </classes>
+  </test> <!-- LoginBookShelf Firefox(failed) -->
+</suite> <!-- Failed suite [Knorrium.info - Wordpress Demo] -->

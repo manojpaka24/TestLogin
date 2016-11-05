@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="21" passed="21">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="56421" started-at="2016-11-05T15:56:05Z" finished-at="2016-11-05T15:57:02Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="56421" started-at="2016-11-05T15:56:05Z" finished-at="2016-11-05T15:57:02Z">
+      <class name="Login.testLogin">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:Login.testLogin@6e1ec318]" name="openBrowser" is-config="true" duration-ms="4978" started-at="2016-11-05T11:56:05Z" finished-at="2016-11-05T11:56:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="testValidLogin()[pri:0, instance:Login.testLogin@6e1ec318]" name="testValidLogin" duration-ms="5012" started-at="2016-11-05T11:56:10Z" finished-at="2016-11-05T11:56:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidLogin -->
+        <test-method status="PASS" signature="testInvalidLogin(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:Login.testLogin@6e1ec318]" name="testInvalidLogin" duration-ms="1955" started-at="2016-11-05T11:56:15Z" data-provider="InvalidData" finished-at="2016-11-05T11:56:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[smurphy.qa@ingramcontent.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ingramqa1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidLogin -->
+        <test-method status="PASS" signature="testInvalidLogin(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:Login.testLogin@6e1ec318]" name="testInvalidLogin" duration-ms="2375" started-at="2016-11-05T11:56:17Z" data-provider="InvalidData" finished-at="2016-11-05T11:56:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[murphy.qa@ingramcontent.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ingramqa!1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Wrong Email]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidLogin -->
+        <test-method status="PASS" signature="testInvalidLogin(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:Login.testLogin@6e1ec318]" name="testInvalidLogin" duration-ms="2410" started-at="2016-11-05T11:56:20Z" data-provider="InvalidData" finished-at="2016-11-05T11:56:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[murphy.qa@ingramcontent.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ingramqa1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Wrong Email and PW]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidLogin -->
+        <test-method status="PASS" signature="testInvalidLogin(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:Login.testLogin@6e1ec318]" name="testInvalidLogin" duration-ms="1132" started-at="2016-11-05T11:56:22Z" data-provider="InvalidData" finished-at="2016-11-05T11:56:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Empty email and password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidLogin -->
+        <test-method status="PASS" signature="testInvalidLogin(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:Login.testLogin@6e1ec318]" name="testInvalidLogin" duration-ms="1202" started-at="2016-11-05T11:56:23Z" data-provider="InvalidData" finished-at="2016-11-05T11:56:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[smurphy.qa@ingramcontent.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Empty Password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidLogin -->
+        <test-method status="PASS" signature="testInvalidLogin(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:Login.testLogin@6e1ec318]" name="testInvalidLogin" duration-ms="1119" started-at="2016-11-05T11:56:25Z" data-provider="InvalidData" finished-at="2016-11-05T11:56:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ingramqa!1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[empty email]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidLogin -->
+        <test-method status="PASS" signature="testInvalidLogin(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:Login.testLogin@6e1ec318]" name="testInvalidLogin" duration-ms="2509" started-at="2016-11-05T11:56:26Z" data-provider="InvalidData" finished-at="2016-11-05T11:56:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SMURPHY.QA@INGRAMCONTENT.COM]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ingramqa!1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Email on CAPS]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidLogin -->
+        <test-method status="PASS" signature="testInvalidLogin(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:Login.testLogin@6e1ec318]" name="testInvalidLogin" duration-ms="2462" started-at="2016-11-05T11:56:28Z" data-provider="InvalidData" finished-at="2016-11-05T11:56:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[smurphy.qa@ingramcontent.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[INGRAMQA!1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Password on CAPS]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidLogin -->
+        <test-method status="PASS" signature="testInvalidLogin(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:Login.testLogin@6e1ec318]" name="testInvalidLogin" duration-ms="2468" started-at="2016-11-05T11:56:31Z" data-provider="InvalidData" finished-at="2016-11-05T11:56:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SMURPHY.QA@INGRAMCONTENT.COM]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[INGRAMQA!1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Email and PW on CAPS]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidLogin -->
+        <test-method status="PASS" signature="testInvalidLogin(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:Login.testLogin@6e1ec318]" name="testInvalidLogin" duration-ms="2434" started-at="2016-11-05T11:56:33Z" data-provider="InvalidData" finished-at="2016-11-05T11:56:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[smurph y.qa@ingramcontent.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ingramqa!1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Email with a space anywhere in the middle]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidLogin -->
+        <test-method status="PASS" signature="testInvalidLogin(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:Login.testLogin@6e1ec318]" name="testInvalidLogin" duration-ms="2768" started-at="2016-11-05T11:56:36Z" data-provider="InvalidData" finished-at="2016-11-05T11:56:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[smurphy.qa@ingramcontent.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ingram qa!1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Password with a space anywhere in the middle]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidLogin -->
+        <test-method status="PASS" signature="testInvalidLogin(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:Login.testLogin@6e1ec318]" name="testInvalidLogin" duration-ms="2434" started-at="2016-11-05T11:56:38Z" data-provider="InvalidData" finished-at="2016-11-05T11:56:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[smurphy.qa@ingramcontent.com ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ingramqa!1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Email with a space at the very end]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidLogin -->
+        <test-method status="PASS" signature="testInvalidLogin(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:Login.testLogin@6e1ec318]" name="testInvalidLogin" duration-ms="2421" started-at="2016-11-05T11:56:41Z" data-provider="InvalidData" finished-at="2016-11-05T11:56:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[smurphy.qa@ingramcontent.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ingramqa!1 ]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Password with a space at the very end]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidLogin -->
+        <test-method status="PASS" signature="testInvalidLogin(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:Login.testLogin@6e1ec318]" name="testInvalidLogin" duration-ms="2347" started-at="2016-11-05T11:56:43Z" data-provider="InvalidData" finished-at="2016-11-05T11:56:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[smurphy.qa@ingramcontent.com ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ingramqa!1 ]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Email and Password with a space at the very end]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidLogin -->
+        <test-method status="PASS" signature="testInvalidLogin(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:Login.testLogin@6e1ec318]" name="testInvalidLogin" duration-ms="3599" started-at="2016-11-05T11:56:46Z" data-provider="InvalidData" finished-at="2016-11-05T11:56:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ smurphy.qa@ingramcontent.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ingramqa!1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Email with a space at the very beginning]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidLogin -->
+        <test-method status="PASS" signature="testInvalidLogin(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:Login.testLogin@6e1ec318]" name="testInvalidLogin" duration-ms="2398" started-at="2016-11-05T11:56:49Z" data-provider="InvalidData" finished-at="2016-11-05T11:56:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[smurphy.qa@ingramcontent.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ Ingramqa!1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Password with a space at the very beginning]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidLogin -->
+        <test-method status="PASS" signature="testInvalidLogin(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:Login.testLogin@6e1ec318]" name="testInvalidLogin" duration-ms="2565" started-at="2016-11-05T11:56:52Z" data-provider="InvalidData" finished-at="2016-11-05T11:56:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ smurphy.qa@ingramcontent.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ Ingramqa!1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Email and Password both with a space at the very beginning]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidLogin -->
+        <test-method status="PASS" signature="testInvalidLogin(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:Login.testLogin@6e1ec318]" name="testInvalidLogin" duration-ms="2499" started-at="2016-11-05T11:56:54Z" data-provider="InvalidData" finished-at="2016-11-05T11:56:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Smurphy.qa@ingramcontent.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ingramqa!1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Email with first character in CAPS]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidLogin -->
+        <test-method status="PASS" signature="testInvalidLogin(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:Login.testLogin@6e1ec318]" name="testInvalidLogin" duration-ms="2876" started-at="2016-11-05T11:56:57Z" data-provider="InvalidData" finished-at="2016-11-05T11:56:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[smurphy.qa@ingramcontent.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ingramqa!1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Password with first character not in CAPS]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidLogin -->
+        <test-method status="PASS" signature="testInvalidLogin(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:Login.testLogin@6e1ec318]" name="testInvalidLogin" duration-ms="2425" started-at="2016-11-05T11:56:59Z" data-provider="InvalidData" finished-at="2016-11-05T11:57:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Roopa.adari@ingramcontent.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ingramqa!1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Email with first character in CAPS but Password not in CAPS]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidLogin -->
+      </class> <!-- Login.testLogin -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

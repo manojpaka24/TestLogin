@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [BookShelf Login]" parallel="tests">
+  <parameter name="Browser" value="Chrome"/>
+  <test name="LoginChrome(failed)" parallel="tests">
+    <parameter name="Browser" value="Chrome"/>
+    <classes>
+      <class name="Login.testLogin">
+        <methods>
+          <include name="testValidLogin"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- Login.testLogin -->
+    </classes>
+  </test> <!-- LoginChrome(failed) -->
+  <test name="LoginFirefox(failed)" parallel="tests">
+    <parameter name="Browser" value="Firefox"/>
+    <classes>
+      <class name="Login.testLogin">
+        <methods>
+          <include name="testValidLogin"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- Login.testLogin -->
+    </classes>
+  </test> <!-- LoginFirefox(failed) -->
+</suite> <!-- Failed suite [BookShelf Login] -->

@@ -1,0 +1,184 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>21/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sat Nov 05 11:56:05 EDT 2016</td>
+</tr>
+<tr><td>Total time:</td><td>56 seconds (56421 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='Login.testLogin.testInvalidLogin()'><b>testInvalidLogin</b><br>Test class: Login.testLogin<br>Parameters: smurphy.qa@ingramcontent.com, Ingramqa1, Invalid password</td>
+<td></td>
+<td>1</td>
+<td>Login.testLogin@6e1ec318</td></tr>
+<tr>
+<td title='Login.testLogin.testInvalidLogin()'><b>testInvalidLogin</b><br>Test class: Login.testLogin<br>Parameters: murphy.qa@ingramcontent.com, Ingramqa!1, Wrong Email</td>
+<td></td>
+<td>2</td>
+<td>Login.testLogin@6e1ec318</td></tr>
+<tr>
+<td title='Login.testLogin.testInvalidLogin()'><b>testInvalidLogin</b><br>Test class: Login.testLogin<br>Parameters: murphy.qa@ingramcontent.com, Ingramqa1, Wrong Email and PW</td>
+<td></td>
+<td>2</td>
+<td>Login.testLogin@6e1ec318</td></tr>
+<tr>
+<td title='Login.testLogin.testInvalidLogin()'><b>testInvalidLogin</b><br>Test class: Login.testLogin<br>Parameters: , , Empty email and password</td>
+<td></td>
+<td>1</td>
+<td>Login.testLogin@6e1ec318</td></tr>
+<tr>
+<td title='Login.testLogin.testInvalidLogin()'><b>testInvalidLogin</b><br>Test class: Login.testLogin<br>Parameters: smurphy.qa@ingramcontent.com, , Empty Password</td>
+<td></td>
+<td>1</td>
+<td>Login.testLogin@6e1ec318</td></tr>
+<tr>
+<td title='Login.testLogin.testInvalidLogin()'><b>testInvalidLogin</b><br>Test class: Login.testLogin<br>Parameters: , Ingramqa!1, empty email</td>
+<td></td>
+<td>1</td>
+<td>Login.testLogin@6e1ec318</td></tr>
+<tr>
+<td title='Login.testLogin.testInvalidLogin()'><b>testInvalidLogin</b><br>Test class: Login.testLogin<br>Parameters: SMURPHY.QA@INGRAMCONTENT.COM, Ingramqa!1, Email on CAPS</td>
+<td></td>
+<td>2</td>
+<td>Login.testLogin@6e1ec318</td></tr>
+<tr>
+<td title='Login.testLogin.testInvalidLogin()'><b>testInvalidLogin</b><br>Test class: Login.testLogin<br>Parameters: smurphy.qa@ingramcontent.com, INGRAMQA!1, Password on CAPS</td>
+<td></td>
+<td>2</td>
+<td>Login.testLogin@6e1ec318</td></tr>
+<tr>
+<td title='Login.testLogin.testInvalidLogin()'><b>testInvalidLogin</b><br>Test class: Login.testLogin<br>Parameters: SMURPHY.QA@INGRAMCONTENT.COM, INGRAMQA!1, Email and PW on CAPS</td>
+<td></td>
+<td>2</td>
+<td>Login.testLogin@6e1ec318</td></tr>
+<tr>
+<td title='Login.testLogin.testInvalidLogin()'><b>testInvalidLogin</b><br>Test class: Login.testLogin<br>Parameters: smurph y.qa@ingramcontent.com, Ingramqa!1, Email with a space anywhere in the middle</td>
+<td></td>
+<td>2</td>
+<td>Login.testLogin@6e1ec318</td></tr>
+<tr>
+<td title='Login.testLogin.testInvalidLogin()'><b>testInvalidLogin</b><br>Test class: Login.testLogin<br>Parameters: smurphy.qa@ingramcontent.com, Ingram qa!1, Password with a space anywhere in the middle</td>
+<td></td>
+<td>2</td>
+<td>Login.testLogin@6e1ec318</td></tr>
+<tr>
+<td title='Login.testLogin.testInvalidLogin()'><b>testInvalidLogin</b><br>Test class: Login.testLogin<br>Parameters: smurphy.qa@ingramcontent.com , Ingramqa!1, Email with a space at the very end</td>
+<td></td>
+<td>2</td>
+<td>Login.testLogin@6e1ec318</td></tr>
+<tr>
+<td title='Login.testLogin.testInvalidLogin()'><b>testInvalidLogin</b><br>Test class: Login.testLogin<br>Parameters: smurphy.qa@ingramcontent.com, Ingramqa!1 , Password with a space at the very end</td>
+<td></td>
+<td>2</td>
+<td>Login.testLogin@6e1ec318</td></tr>
+<tr>
+<td title='Login.testLogin.testInvalidLogin()'><b>testInvalidLogin</b><br>Test class: Login.testLogin<br>Parameters: smurphy.qa@ingramcontent.com , Ingramqa!1 , Email and Password with a space at the very end</td>
+<td></td>
+<td>2</td>
+<td>Login.testLogin@6e1ec318</td></tr>
+<tr>
+<td title='Login.testLogin.testInvalidLogin()'><b>testInvalidLogin</b><br>Test class: Login.testLogin<br>Parameters:  smurphy.qa@ingramcontent.com, Ingramqa!1, Email with a space at the very beginning</td>
+<td></td>
+<td>3</td>
+<td>Login.testLogin@6e1ec318</td></tr>
+<tr>
+<td title='Login.testLogin.testInvalidLogin()'><b>testInvalidLogin</b><br>Test class: Login.testLogin<br>Parameters: smurphy.qa@ingramcontent.com,  Ingramqa!1, Password with a space at the very beginning</td>
+<td></td>
+<td>2</td>
+<td>Login.testLogin@6e1ec318</td></tr>
+<tr>
+<td title='Login.testLogin.testInvalidLogin()'><b>testInvalidLogin</b><br>Test class: Login.testLogin<br>Parameters:  smurphy.qa@ingramcontent.com,  Ingramqa!1, Email and Password both with a space at the very beginning</td>
+<td></td>
+<td>2</td>
+<td>Login.testLogin@6e1ec318</td></tr>
+<tr>
+<td title='Login.testLogin.testInvalidLogin()'><b>testInvalidLogin</b><br>Test class: Login.testLogin<br>Parameters: Smurphy.qa@ingramcontent.com, Ingramqa!1, Email with first character in CAPS</td>
+<td></td>
+<td>2</td>
+<td>Login.testLogin@6e1ec318</td></tr>
+<tr>
+<td title='Login.testLogin.testInvalidLogin()'><b>testInvalidLogin</b><br>Test class: Login.testLogin<br>Parameters: smurphy.qa@ingramcontent.com, ingramqa!1, Password with first character not in CAPS</td>
+<td></td>
+<td>2</td>
+<td>Login.testLogin@6e1ec318</td></tr>
+<tr>
+<td title='Login.testLogin.testInvalidLogin()'><b>testInvalidLogin</b><br>Test class: Login.testLogin<br>Parameters: Roopa.adari@ingramcontent.com, ingramqa!1, Email with first character in CAPS but Password not in CAPS</td>
+<td></td>
+<td>2</td>
+<td>Login.testLogin@6e1ec318</td></tr>
+<tr>
+<td title='Login.testLogin.testValidLogin()'><b>testValidLogin</b><br>Test class: Login.testLogin</td>
+<td></td>
+<td>5</td>
+<td>Login.testLogin@6e1ec318</td></tr>
+</table><p>
+</body>
+</html>
