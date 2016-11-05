@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" total="21" passed="21">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="56421" started-at="2016-11-05T15:56:05Z" finished-at="2016-11-05T15:57:02Z">
+  <suite name="Default suite" duration-ms="56480" started-at="2016-11-05T18:08:05Z" finished-at="2016-11-05T18:09:01Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="56421" started-at="2016-11-05T15:56:05Z" finished-at="2016-11-05T15:57:02Z">
+    <test name="Default test" duration-ms="56480" started-at="2016-11-05T18:08:05Z" finished-at="2016-11-05T18:09:01Z">
       <class name="Login.testLogin">
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:Login.testLogin@6e1ec318]" name="openBrowser" is-config="true" duration-ms="4978" started-at="2016-11-05T11:56:05Z" finished-at="2016-11-05T11:56:10Z">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:Login.testLogin@6e1ec318]" name="openBrowser" is-config="true" duration-ms="6456" started-at="2016-11-05T14:08:05Z" finished-at="2016-11-05T14:08:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="testValidLogin()[pri:0, instance:Login.testLogin@6e1ec318]" name="testValidLogin" duration-ms="5012" started-at="2016-11-05T11:56:10Z" finished-at="2016-11-05T11:56:15Z">
+        <test-method status="PASS" signature="testValidLogin()[pri:0, instance:Login.testLogin@6e1ec318]" name="testValidLogin" duration-ms="5161" started-at="2016-11-05T14:08:11Z" finished-at="2016-11-05T14:08:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testValidLogin -->
-        <test-method status="PASS" signature="testInvalidLogin(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:Login.testLogin@6e1ec318]" name="testInvalidLogin" duration-ms="1955" started-at="2016-11-05T11:56:15Z" data-provider="InvalidData" finished-at="2016-11-05T11:56:17Z">
+        <test-method status="PASS" signature="testInvalidLogin(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:Login.testLogin@6e1ec318]" name="testInvalidLogin" duration-ms="2205" started-at="2016-11-05T14:08:16Z" data-provider="InvalidData" finished-at="2016-11-05T14:08:18Z">
           <params>
             <param index="0">
               <value>
@@ -36,7 +36,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testInvalidLogin -->
-        <test-method status="PASS" signature="testInvalidLogin(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:Login.testLogin@6e1ec318]" name="testInvalidLogin" duration-ms="2375" started-at="2016-11-05T11:56:17Z" data-provider="InvalidData" finished-at="2016-11-05T11:56:20Z">
+        <test-method status="PASS" signature="testInvalidLogin(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:Login.testLogin@6e1ec318]" name="testInvalidLogin" duration-ms="2209" started-at="2016-11-05T14:08:18Z" data-provider="InvalidData" finished-at="2016-11-05T14:08:21Z">
           <params>
             <param index="0">
               <value>
@@ -57,7 +57,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testInvalidLogin -->
-        <test-method status="PASS" signature="testInvalidLogin(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:Login.testLogin@6e1ec318]" name="testInvalidLogin" duration-ms="2410" started-at="2016-11-05T11:56:20Z" data-provider="InvalidData" finished-at="2016-11-05T11:56:22Z">
+        <test-method status="PASS" signature="testInvalidLogin(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:Login.testLogin@6e1ec318]" name="testInvalidLogin" duration-ms="2489" started-at="2016-11-05T14:08:21Z" data-provider="InvalidData" finished-at="2016-11-05T14:08:23Z">
           <params>
             <param index="0">
               <value>
@@ -78,7 +78,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testInvalidLogin -->
-        <test-method status="PASS" signature="testInvalidLogin(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:Login.testLogin@6e1ec318]" name="testInvalidLogin" duration-ms="1132" started-at="2016-11-05T11:56:22Z" data-provider="InvalidData" finished-at="2016-11-05T11:56:23Z">
+        <test-method status="PASS" signature="testInvalidLogin(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:Login.testLogin@6e1ec318]" name="testInvalidLogin" duration-ms="1122" started-at="2016-11-05T14:08:23Z" data-provider="InvalidData" finished-at="2016-11-05T14:08:24Z">
           <params>
             <param index="0">
               <value>
@@ -99,7 +99,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testInvalidLogin -->
-        <test-method status="PASS" signature="testInvalidLogin(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:Login.testLogin@6e1ec318]" name="testInvalidLogin" duration-ms="1202" started-at="2016-11-05T11:56:23Z" data-provider="InvalidData" finished-at="2016-11-05T11:56:25Z">
+        <test-method status="PASS" signature="testInvalidLogin(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:Login.testLogin@6e1ec318]" name="testInvalidLogin" duration-ms="1153" started-at="2016-11-05T14:08:24Z" data-provider="InvalidData" finished-at="2016-11-05T14:08:25Z">
           <params>
             <param index="0">
               <value>
@@ -120,7 +120,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testInvalidLogin -->
-        <test-method status="PASS" signature="testInvalidLogin(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:Login.testLogin@6e1ec318]" name="testInvalidLogin" duration-ms="1119" started-at="2016-11-05T11:56:25Z" data-provider="InvalidData" finished-at="2016-11-05T11:56:26Z">
+        <test-method status="PASS" signature="testInvalidLogin(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:Login.testLogin@6e1ec318]" name="testInvalidLogin" duration-ms="1108" started-at="2016-11-05T14:08:25Z" data-provider="InvalidData" finished-at="2016-11-05T14:08:26Z">
           <params>
             <param index="0">
               <value>
@@ -141,7 +141,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testInvalidLogin -->
-        <test-method status="PASS" signature="testInvalidLogin(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:Login.testLogin@6e1ec318]" name="testInvalidLogin" duration-ms="2509" started-at="2016-11-05T11:56:26Z" data-provider="InvalidData" finished-at="2016-11-05T11:56:28Z">
+        <test-method status="PASS" signature="testInvalidLogin(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:Login.testLogin@6e1ec318]" name="testInvalidLogin" duration-ms="2664" started-at="2016-11-05T14:08:26Z" data-provider="InvalidData" finished-at="2016-11-05T14:08:29Z">
           <params>
             <param index="0">
               <value>
@@ -162,7 +162,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testInvalidLogin -->
-        <test-method status="PASS" signature="testInvalidLogin(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:Login.testLogin@6e1ec318]" name="testInvalidLogin" duration-ms="2462" started-at="2016-11-05T11:56:28Z" data-provider="InvalidData" finished-at="2016-11-05T11:56:31Z">
+        <test-method status="PASS" signature="testInvalidLogin(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:Login.testLogin@6e1ec318]" name="testInvalidLogin" duration-ms="2367" started-at="2016-11-05T14:08:29Z" data-provider="InvalidData" finished-at="2016-11-05T14:08:32Z">
           <params>
             <param index="0">
               <value>
@@ -183,7 +183,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testInvalidLogin -->
-        <test-method status="PASS" signature="testInvalidLogin(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:Login.testLogin@6e1ec318]" name="testInvalidLogin" duration-ms="2468" started-at="2016-11-05T11:56:31Z" data-provider="InvalidData" finished-at="2016-11-05T11:56:33Z">
+        <test-method status="PASS" signature="testInvalidLogin(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:Login.testLogin@6e1ec318]" name="testInvalidLogin" duration-ms="2459" started-at="2016-11-05T14:08:32Z" data-provider="InvalidData" finished-at="2016-11-05T14:08:34Z">
           <params>
             <param index="0">
               <value>
@@ -204,7 +204,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testInvalidLogin -->
-        <test-method status="PASS" signature="testInvalidLogin(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:Login.testLogin@6e1ec318]" name="testInvalidLogin" duration-ms="2434" started-at="2016-11-05T11:56:33Z" data-provider="InvalidData" finished-at="2016-11-05T11:56:36Z">
+        <test-method status="PASS" signature="testInvalidLogin(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:Login.testLogin@6e1ec318]" name="testInvalidLogin" duration-ms="2630" started-at="2016-11-05T14:08:34Z" data-provider="InvalidData" finished-at="2016-11-05T14:08:37Z">
           <params>
             <param index="0">
               <value>
@@ -225,7 +225,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testInvalidLogin -->
-        <test-method status="PASS" signature="testInvalidLogin(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:Login.testLogin@6e1ec318]" name="testInvalidLogin" duration-ms="2768" started-at="2016-11-05T11:56:36Z" data-provider="InvalidData" finished-at="2016-11-05T11:56:38Z">
+        <test-method status="PASS" signature="testInvalidLogin(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:Login.testLogin@6e1ec318]" name="testInvalidLogin" duration-ms="2431" started-at="2016-11-05T14:08:37Z" data-provider="InvalidData" finished-at="2016-11-05T14:08:39Z">
           <params>
             <param index="0">
               <value>
@@ -246,7 +246,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testInvalidLogin -->
-        <test-method status="PASS" signature="testInvalidLogin(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:Login.testLogin@6e1ec318]" name="testInvalidLogin" duration-ms="2434" started-at="2016-11-05T11:56:38Z" data-provider="InvalidData" finished-at="2016-11-05T11:56:41Z">
+        <test-method status="PASS" signature="testInvalidLogin(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:Login.testLogin@6e1ec318]" name="testInvalidLogin" duration-ms="2683" started-at="2016-11-05T14:08:39Z" data-provider="InvalidData" finished-at="2016-11-05T14:08:42Z">
           <params>
             <param index="0">
               <value>
@@ -267,7 +267,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testInvalidLogin -->
-        <test-method status="PASS" signature="testInvalidLogin(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:Login.testLogin@6e1ec318]" name="testInvalidLogin" duration-ms="2421" started-at="2016-11-05T11:56:41Z" data-provider="InvalidData" finished-at="2016-11-05T11:56:43Z">
+        <test-method status="PASS" signature="testInvalidLogin(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:Login.testLogin@6e1ec318]" name="testInvalidLogin" duration-ms="2445" started-at="2016-11-05T14:08:42Z" data-provider="InvalidData" finished-at="2016-11-05T14:08:44Z">
           <params>
             <param index="0">
               <value>
@@ -288,7 +288,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testInvalidLogin -->
-        <test-method status="PASS" signature="testInvalidLogin(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:Login.testLogin@6e1ec318]" name="testInvalidLogin" duration-ms="2347" started-at="2016-11-05T11:56:43Z" data-provider="InvalidData" finished-at="2016-11-05T11:56:46Z">
+        <test-method status="PASS" signature="testInvalidLogin(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:Login.testLogin@6e1ec318]" name="testInvalidLogin" duration-ms="2337" started-at="2016-11-05T14:08:44Z" data-provider="InvalidData" finished-at="2016-11-05T14:08:46Z">
           <params>
             <param index="0">
               <value>
@@ -309,7 +309,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testInvalidLogin -->
-        <test-method status="PASS" signature="testInvalidLogin(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:Login.testLogin@6e1ec318]" name="testInvalidLogin" duration-ms="3599" started-at="2016-11-05T11:56:46Z" data-provider="InvalidData" finished-at="2016-11-05T11:56:49Z">
+        <test-method status="PASS" signature="testInvalidLogin(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:Login.testLogin@6e1ec318]" name="testInvalidLogin" duration-ms="2464" started-at="2016-11-05T14:08:46Z" data-provider="InvalidData" finished-at="2016-11-05T14:08:49Z">
           <params>
             <param index="0">
               <value>
@@ -330,7 +330,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testInvalidLogin -->
-        <test-method status="PASS" signature="testInvalidLogin(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:Login.testLogin@6e1ec318]" name="testInvalidLogin" duration-ms="2398" started-at="2016-11-05T11:56:49Z" data-provider="InvalidData" finished-at="2016-11-05T11:56:52Z">
+        <test-method status="PASS" signature="testInvalidLogin(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:Login.testLogin@6e1ec318]" name="testInvalidLogin" duration-ms="2402" started-at="2016-11-05T14:08:49Z" data-provider="InvalidData" finished-at="2016-11-05T14:08:51Z">
           <params>
             <param index="0">
               <value>
@@ -351,7 +351,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testInvalidLogin -->
-        <test-method status="PASS" signature="testInvalidLogin(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:Login.testLogin@6e1ec318]" name="testInvalidLogin" duration-ms="2565" started-at="2016-11-05T11:56:52Z" data-provider="InvalidData" finished-at="2016-11-05T11:56:54Z">
+        <test-method status="PASS" signature="testInvalidLogin(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:Login.testLogin@6e1ec318]" name="testInvalidLogin" duration-ms="2342" started-at="2016-11-05T14:08:51Z" data-provider="InvalidData" finished-at="2016-11-05T14:08:54Z">
           <params>
             <param index="0">
               <value>
@@ -372,7 +372,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testInvalidLogin -->
-        <test-method status="PASS" signature="testInvalidLogin(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:Login.testLogin@6e1ec318]" name="testInvalidLogin" duration-ms="2499" started-at="2016-11-05T11:56:54Z" data-provider="InvalidData" finished-at="2016-11-05T11:56:57Z">
+        <test-method status="PASS" signature="testInvalidLogin(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:Login.testLogin@6e1ec318]" name="testInvalidLogin" duration-ms="2416" started-at="2016-11-05T14:08:54Z" data-provider="InvalidData" finished-at="2016-11-05T14:08:56Z">
           <params>
             <param index="0">
               <value>
@@ -393,7 +393,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testInvalidLogin -->
-        <test-method status="PASS" signature="testInvalidLogin(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:Login.testLogin@6e1ec318]" name="testInvalidLogin" duration-ms="2876" started-at="2016-11-05T11:56:57Z" data-provider="InvalidData" finished-at="2016-11-05T11:56:59Z">
+        <test-method status="PASS" signature="testInvalidLogin(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:Login.testLogin@6e1ec318]" name="testInvalidLogin" duration-ms="2397" started-at="2016-11-05T14:08:56Z" data-provider="InvalidData" finished-at="2016-11-05T14:08:59Z">
           <params>
             <param index="0">
               <value>
@@ -414,7 +414,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testInvalidLogin -->
-        <test-method status="PASS" signature="testInvalidLogin(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:Login.testLogin@6e1ec318]" name="testInvalidLogin" duration-ms="2425" started-at="2016-11-05T11:56:59Z" data-provider="InvalidData" finished-at="2016-11-05T11:57:02Z">
+        <test-method status="PASS" signature="testInvalidLogin(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:Login.testLogin@6e1ec318]" name="testInvalidLogin" duration-ms="2506" started-at="2016-11-05T14:08:59Z" data-provider="InvalidData" finished-at="2016-11-05T14:09:01Z">
           <params>
             <param index="0">
               <value>

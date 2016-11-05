@@ -29,7 +29,7 @@ public class testLogin {
 		WebElement element = driver.findElement(By.xpath(xPath));
 		return element;
 	}
-	@Parameters("Browser")
+//	@Parameters("Browser")
 	@BeforeTest
 	public WebDriver openBrowser() {
 		System.setProperty("webdriver.chrome.driver", chromeDriverPath);
